@@ -12,7 +12,6 @@ main {
 
 article {
   margin-top: 4em;
-  /* font-size: 1.1em; */
 }
 
 article h1 {
@@ -21,6 +20,10 @@ article h1 {
   text-align: center;
   margin: 0 auto;
   line-height: 0.95;
+}
+
+li {
+  margin: 1em 0;
 }
 
 footer {
@@ -50,11 +53,6 @@ footer {
   padding: 1em;
 }
 
-/* .image img {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-
 .video-fake video {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -68,7 +66,7 @@ footer {
 .featured {
   border-left: 2px solid #ffd877;
   color: #bd5a2b;
-  padding-left: 2em;
+  padding-left: 1em;
   font-weight: bold;
 }
 
